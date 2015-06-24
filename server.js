@@ -14,7 +14,7 @@ app.use(cors());
 
 app.use(express.static(__dirname + '/'));
 
-//
+
 var mongojs = require('mongojs');
 var db = mongojs('ecommerce', ['storage']);
 var ObjectId = require('mongodb').ObjectID;
