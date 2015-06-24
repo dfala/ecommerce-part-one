@@ -1,0 +1,28 @@
+{
+  "name": "ecommerce-part-one",
+  "version": "0.0.0",
+  "description": "eCommerce Project - Part I =================",
+  "main": "database.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dfala/ecommerce-part-one.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dfala/ecommerce-part-one/issues"
+  },
+  "homepage": "https://github.com/dfala/ecommerce-part-one",
+  "dependencies": {
+    "body-parser": "^1.13.1",
+    "cors": "^2.7.1",
+    "express": "^4.13.0",
+    "mongodb": "^2.0.35",
+    "mongojs": "^1.0.1",
+    "mongoose": "^4.0.6"
+  }
+}
